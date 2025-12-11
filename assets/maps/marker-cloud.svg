@@ -1,0 +1,16 @@
+<svg height="100" viewBox="0 0 100 100" width="100" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <filter id="blur">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="3"/>
+        </filter>
+    </defs>
+
+    <!-- Cloud shape made of circles -->
+    <g filter="url(#blur)" opacity="0.7">
+        <circle cx="35" cy="55" fill="rgba(200, 200, 220, 0.8)" r="15"/>
+        <circle cx="50" cy="50" fill="rgba(200, 200, 220, 0.8)" r="18"/>
+        <circle cx="65" cy="55" fill="rgba(200, 200, 220, 0.8)" r="15"/>
+        <circle cx="45" cy="60" fill="rgba(200, 200, 220, 0.8)" r="12"/>
+        <circle cx="55" cy="60" fill="rgba(200, 200, 220, 0.8)" r="12"/>
+    </g>
+</svg>
