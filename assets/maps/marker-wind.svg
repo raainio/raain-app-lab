@@ -1,0 +1,24 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <marker id="arrowhead" markerHeight="12" markerWidth="12" orient="auto" refX="10" refY="4">
+            <polygon fill="white" points="0 0, 12 4, 0 8"/>
+        </marker>
+    </defs>
+
+    <rect fill="none" height="200" width="200"/>
+
+    <path d="M 20,60 Q 70,55 120,60" fill="none" marker-end="url(#arrowhead)" stroke="white" stroke-width="2">
+        <animate attributeName="d" dur="3s" repeatCount="indefinite"
+                 values="M -100,60 Q -50,55 0,60;M 220,60 Q 270,55 320,60"/>
+    </path>
+
+    <path d="M 20,100 Q 70,103 120,100" fill="none" marker-end="url(#arrowhead)" stroke="white" stroke-width="2">
+        <animate attributeName="d" begin="0.5s" dur="3s" repeatCount="indefinite"
+                 values="M -100,100 Q -50,103 0,100;M 220,100 Q 270,103 320,100"/>
+    </path>
+
+    <path d="M 20,140 Q 70,138 120,140" fill="none" marker-end="url(#arrowhead)" stroke="white" stroke-width="2">
+        <animate attributeName="d" begin="1s" dur="3s" repeatCount="indefinite"
+                 values="M -100,140 Q -50,138 0,140;M 220,140 Q 270,138 320,140"/>
+    </path>
+</svg>
